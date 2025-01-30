@@ -47,7 +47,7 @@
     <header >
         <!-- Navigation Bar -->
         <nav class="sora ">
-            <div class="navbar bg-primary px-2 md:px-8 xl:px-16"">
+            <div class="navbar bg-primary px-2 md:px-8 xl:px-16  border-b-2 md:border-0">
                 <div class="navbar-start gap-3">
                     <img src="./assets/logo-header.png" alt="Logo">
                     <H1 class="hidden md:inline-flex text-black font-normal text-3xl">Browse<span class="text-accent">4</span>Pets</H1>
@@ -62,8 +62,8 @@
                 <div class="navbar-end gap-3">
                     <button><i class="fa-regular fa-bell text-xl"></i></button>
                     <button><i class="fa-solid fa-magnifying-glass text-xl"></i></button>
-                    <button class="btn hidden lg:inline-flex bg-white border-accent hover:bg-accent hover:border-0 text-accent hover:text-white text-xl font-normal">Login</button>
-                    <button class="btn hidden lg:inline-flex bg-accent hover:bg-white hover:text-accent hover:border-1 hover:border-accent text-xl font-normal text-white">Register</button>
+                    <button class="btn hidden lg:inline-flex bg-white border-accent hover:bg-accent hover:border-0 text-black hover:text-white text-xl font-normal">Login</button>
+                    <button class="btn hidden lg:inline-flex bg-accent hover:bg-white hover:text-accent hover:border-1 hover:border-accent text-xl font-normal text-black">Register</button>
                     <div class="dropdown overflow-hidden">
                       <div tabindex="0" role="button" class="btn btn-ghost lg:hidden text-xl">
                         <svg
@@ -90,6 +90,19 @@
                 </div>
               </div>
         </nav>
+
+        <!-- Banner -->
+        <section class="relative px-2 md:px-8 xl:px-16 ">
+          
+          <div class="space-y-6 pt-8 md:pt-16">
+            <h1 class="adlam font-normal text-4xl md:text-6xl">Pamper Your Pet,<br>Because They Deserve<br>the Bes</h1>
+            <p class="sora font-normal text-xl">Discover a world of treats, toys, and essentials handpicked for<br>your furry friends. Shop now and make tails wag with joy!</p>
+            <button class="sora btn bg-accent hover:bg-white hover:text-accent hover:border-1 hover:border-accent text-xl font-normal text-black">Find a pet</button>
+          </div>
+          <div  class="absolute top-56 lg:top-1 -z-10 mx-auto	xl:right-8 animate-pulse">
+            <img src="./assets/cat-big.png" alt="Cat">
+          </div>
+        </section>
 
     </header>
 
